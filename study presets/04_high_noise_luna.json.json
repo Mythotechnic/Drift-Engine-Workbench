@@ -1,0 +1,21 @@
+{
+  "params": {
+    "particleCount": 6000,
+    "speed": 1.1,
+    "damping": 0.984,
+    "noise": 0.06,
+    "lambda": 150,
+    "drift": 0.35,
+    "echoGain": 0.28,
+    "lock": 0.70,
+    "kappa": 8.6,
+    "depthLimit": 9,
+    "erc": 0.90,
+    "hzLock": 0.10,
+    "alpha": 0.8,
+    "beta": 0.9,
+    "gamma": 0.9,
+    "luna": true,
+    "ciTarget": 0.82
+  }
+}
