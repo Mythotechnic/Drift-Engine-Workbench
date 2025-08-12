@@ -1,0 +1,30 @@
+
+---
+
+# 4) Study presets (`/presets/*.json`)
+
+> These match your v2 schema (`state = { params, anchors? }`). They include **params** only so you can use Random x3 or your own anchors; you can also drop in a saved `anchors` array later.
+
+### `01_baseline_corridor.json`
+```json
+{
+  "params": {
+    "particleCount": 4500,
+    "speed": 1.0,
+    "damping": 0.996,
+    "noise": 0.01,
+    "lambda": 260,
+    "drift": 0.30,
+    "echoGain": 0.10,
+    "lock": 0.70,
+    "kappa": 8.0,
+    "depthLimit": 7,
+    "erc": 1.00,
+    "hzLock": 0.10,
+    "alpha": 0.8,
+    "beta": 0.8,
+    "gamma": 0.8,
+    "luna": false,
+    "ciTarget": 0.70
+  }
+}
